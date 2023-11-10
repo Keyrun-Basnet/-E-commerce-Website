@@ -1,0 +1,62 @@
+/* Style the navbar */
+#nav {
+  overflow: hidden;
+  background-color: lightgreen;
+}
+
+/* Navbar links */
+#nav a {
+  float: left;
+  width: 80px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  color: #fffffa;
+  font-family: monospace;
+  color: black;
+  font-size: 14px;
+  box-sizing: no;
+  
+}
+
+/* Navbar hover */
+#nav a:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Navbar activity */
+#nav a.active {
+  background-color: #fffffa;
+  color: black;
+}
+
+.btn {
+  border-radius: 10px;
+  height: 35px;
+  width: 125px;
+  background-color: lightgreen;
+  color: black;
+
+}
+
+.btn:hover {
+  background-color: #333;
+  color: white;
+} 
+
+footer {
+  background-color: #999;
+  text-align: center;
+} 
+
+body {
+      background-image: url('C:/Users/kiran/Documents/islington/Introduction to Information system/IS C-3/np01cp4s220150 Kiran_Basnet/Development/Images/pbg.jpg');
+      background-color: #555;
+      background-position: center;
+      background-size: 100% ;
+      position: relative;
+}
+

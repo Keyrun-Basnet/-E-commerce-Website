@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="Home Page">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Kiran Basnet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>PineApple</title>
+
+	<!-- External JavaScript -->
+	<script src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\JS\Script.js"></script>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\CSS\Design.css">
+
+	<!-- Internal JavaScript -->
+	<script type="text/javascript">
+		// external links
+		function detail1() {
+			window.open("https://www.apple.com/iphone-13-pro/");
+		}
+
+		function detail2() {
+		  	window.open("https://www.samsung.com/in/smartphones/galaxy-s22-ultra/");
+		}
+
+		function detail3() {
+		  	window.open("https://www.oneplus.com/np/10-pro");
+		}
+
+
+	</script>
+
+	<!-- Internal CSS -->
+	<style type="text/css">
+
+		*{margin: 0px;}
+		
+		h1 {
+			font-size: 40px;
+			font-family: Helvetica;
+			color: black;
+		}
+
+		h2 {
+			font-family: monospace;
+			font-size: 30px;
+			color: #333;
+		}
+
+		img {
+			width: 800px;
+
+		}
+
+		/* Style device detail */
+		.device_detail {
+			margin-bottom: -19px;
+			border-top-right-radius: 20px;
+			border-top-left-radius: 20px;
+			  text-align: center;
+			  background-color: whitesmoke;
+			  margin-right: 350px;
+			  margin-left: 350px;
+		}
+
+		/*style device image*/
+		.device_image {
+			border-bottom-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+			  text-align: center;
+			  background-color: whitesmoke;
+			  margin-right: 350px;
+			  margin-left: 350px;
+			  padding-bottom: 20px ;
+
+		}
+
+		.ads {
+			text-align: center;
+			background-color: lightgreen;
+			padding-bottom: 10px;
+			padding-top: 10px;
+
+		}
+
+
+		video {
+			width: 900px;
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			width: 648px;
+			box-sizing: border-box;
+			margin: auto;
+			position: relative;
+			box-shadow: 30px 40px 40px auto;
+		}
+
+		/* Next & previous buttons */
+		.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+		}
+
+		/* Fading animation */
+		.fade {
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+
+		@keyframes fade {
+			from {opacity: .4} 
+			to {opacity: 1}
+		}
+
+		.slider {
+		    width: 90%;
+		    height: 500px;
+		    margin: 20px auto;
+		    box-sizing: border-box;
+		    overflow: hidden;
+		    box-shadow: 5px 5px 10px grey;
+		}
+
+	</style>
+
+</head>
+
+<body >
+
+	<!-- business name -->
+	<p style="font-family: monospace; font-size: 20px; height: 25px; text-align: center; background-color: #555; color: white; ">PineApple.</p>
+	
+
+	<!-- navigation bar -->
+	<div id="nav">
+  		<a class="active" href="Home.html">Home</a>
+    	<a href="Products.html">Products</a>
+    	<a href="Research.html">Research</a>
+    	<a href="Blog.html">Blog</a>
+    	<a href="ContactUs.html">Contact Us</a>
+	</div>
+
+	<br>
+
+	<!-- content div -->
+	<div class = "content">
+
+		<div>
+			<p style="font-family: monospace; font-size: 25px; text-align: center; margin-left: 400px; margin-right: 400px; font-size: 45px; color: black; ">
+				<b>Now Available
+			</p>
+		</div>
+
+		<br>
+
+		<!-- device video -->
+		<div class="ads">
+			<video controls autoplay>
+				<source src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\ad.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<br>
+
+		<!-- slideshow -->
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  	<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\deal1.png" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+			  	<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\deal2.png" style="width:100%" >
+			</div>
+
+			<div class="mySlides fade">
+			 	<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\deal3.png" style="width:100%">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+		</div>
+		<br>	
+
+		<!-- device name -->
+		<div class="device_detail">
+			<p>
+				<br>
+				<h1>iPhone 13 Pro </h1>
+				<h2>Oh.So.Pro</h2>
+			</p>
+		</div>
+
+		<br>
+	
+		<!-- device image -->
+		<div class="device_image">
+			<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\s1.jpeg"><br><br>
+			<button class = "btn" onclick="detail1()">Learn more</button>
+		</div>
+
+		<br>
+
+		<br>
+
+	</div>	
+
+	<!-- content div -->
+	<div class = "content">
+
+		<!-- device name -->
+		<div class="device_detail">
+			<p>
+				<br>
+				<h1>Samsung S22 Ultra</h1>
+				<h2>Make your everyday epic</h2>
+			</p>
+		</div>
+
+		<br>
+
+		<!-- device image -->
+		<div class="device_image">
+			<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\s2.jpeg"><br><br>
+			<button class = "btn" onclick="detail2()">Learn more</button>
+		</div>
+
+		<br>
+
+		<br>
+
+	</div>
+
+	<!-- content div -->
+	<div class = "content">
+
+		<!-- device name -->
+		<div class="device_detail">
+			<p>
+				<br>
+				<h1>Oneplus 10 Pro</h1>
+				<h2>Capture every Horizon</h2>
+			</p>
+		</div>
+
+		<br>
+
+		<!-- device image -->
+		<div class="device_image">
+			<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\s3.jpeg"><br><br>
+			<button class = "btn" onclick="detail3()">Learn more</button>
+		</div>
+
+		<br>
+
+		<br>
+
+	</div>
+
+	<!-- footer div -->
+	<footer class="f1" style="height: 450px ">
+
+		<div style="float: middle;"> 
+			<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\logo.png" style="width: 150px; height: auto; margin-bottom: -25px;">
+		</div>
+
+		<br>
+
+		<div>
+			<h1 style="text-align: center; color: white; font-family: monospace; font-size: 25px">
+				<br>PineApple.
+			</h1>	
+			<br>
+		</div>	
+
+		<div>
+			<h2 style="float: middle; color: white; font-family: monospace; font-size: 20px">
+				Quick links
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Products.html">Products</a>
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Research.html">Research</a>
+			   	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Blog.html">Blog</a>
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="ContactUs.html">Contact Us</a>
+			</h2>
+		</div>
+
+	</footer>
+
+	<footer class="f2" style="background-color: #333;">
+
+		<p style="text-align: center; color: white; font-family: monospace; font-size: 15px; padding-bottom: 10px; padding-top: 10px" >
+			&#169; 2022 PineApple. 
+			<br>
+			All Rights Reserved.
+		</p>
+
+	</footer>		
+
+</body>
+
+</html>

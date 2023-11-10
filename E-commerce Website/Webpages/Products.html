@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="Store Page">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Kiran Basnet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>PineApple Store</title>
+
+	<!-- External JavaScript -->
+	<script src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\JS\Script.js"></script>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\CSS\Design.css">
+
+	<!-- Internal JavaScript -->
+	<script type="text/javascript">
+
+	</script>
+
+	<!-- Internal CSS -->
+	<style type="text/css">
+		*{margin: 0px;}
+
+		body {
+			background-color: #fffffa;
+		}
+
+		h1 {
+			font-size: 40px;
+			font-family: Helvetica;
+			text-align: center;
+		}
+
+		.row {
+		    margin-right:-5px;
+		    margin: 10px;
+			margin-left:20px ;
+
+		}
+		  
+		.column {
+		    float: left;
+		    width: 33%;
+		    padding: auto;
+		    margin: auto;
+		    margin-left:30px;
+			margin-bottom: 30px;
+			width: 450px;
+		}
+
+		table {
+			border-spacing: 0;
+		  	width: 100%;
+		  	border: 1px solid #ddd;
+		}
+
+		th, td {
+		    text-align: center;
+		    padding: 16px;
+		}
+
+		tr:nth-child(even) {
+		    background-color: #f2f2f2;
+		}
+
+		.price {
+			background-color: white;
+			color: darkorange;
+			font-size: 20px;
+			font-family: sans-serif;
+		}
+
+		.pname {
+			font-family: sans-serif;
+			font-size: 20px;
+		}
+
+		.imgtb {
+			background-color: white;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+
+	<!-- business name -->
+	<p style="font-family: monospace; font-size: 20px; height: 25px; text-align: center; background-color: #555; color: white; ">PineApple.</p>	
+
+	<!-- navigation bar -->
+	<div id="nav">
+  		<a href="Home.html">Home</a>
+    	<a class="active" href="Products.html">Products</a>
+    	<a href="Research.html">Research</a>
+    	<a href="Blog.html">Blog</a>
+    	<a href="ContactUs.html">Contact Us</a>
+	</div>
+
+	<br><br><br>
+
+	<!-- content div -->
+	<div class="content">
+		<h1 style="font-family: monospace; background-color: white; margin: 20px; margin-left: 400px; margin-right: 400px; border-radius: 20px; text-align: center; ">Choose your next phone.</h1><br>
+
+		<!-- table for display of devices -->
+		<div class="row">
+
+			<!-- iphone 13 pro div -->
+			<div class="column">
+			    <table>
+			      	<tr>
+			        	<th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store1.png"></th>
+			      	</tr>
+			      	<tr>
+			        	<td class="pname">iPhone 13 pro</td>
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 134,990</td> 
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>  
+				</table>
+			</div>
+			
+			<!-- samsung s22 ultra div  -->
+			<div class="column">
+				<table>
+					<tr>
+				        <th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store2.png"></th>
+				        
+				    </tr>
+				    <tr>
+				        <td class="pname">Samsung S22 Ultra</td>
+				       
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 196,999</td>   
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr> 
+				</table>
+			</div>
+
+			<!-- oneplus 10 pro div -->
+			<div class="column">
+				<table>
+					<tr>
+				        <th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store3.png"></th>
+				        
+				    </tr>
+				    <tr>
+				        <td class="pname">Oneplus 10 Pro 5G</td>
+				       
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 134,999</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>
+				</table>
+			</div>
+
+			<!-- iphone 13 pro div -->
+			<div class="column">
+			    <table>
+			      	<tr>
+			        	<th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store4.png"></th>
+			      	</tr>
+			      	<tr>
+			        	<td class="pname">iPhone 13</td>
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 134,990</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>
+				</table>
+			</div>
+			
+			<!-- samsung s22 ultra div  -->
+			<div class="column">
+				<table>
+					<tr>
+				        <th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store5.png"></th>
+				        
+				    </tr>
+				    <tr>
+				        <td class="pname">Samsung S22</td>
+				       
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 112,999</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>    
+				</table>
+			</div>
+
+			<!-- oneplus 10 pro div -->
+			<div class="column">
+				<table>
+					<tr>
+				        <th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store6.png"></th>
+				        
+				    </tr>
+				    <tr>
+				        <td class="pname">Oneplus</td>
+				       
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 85,999</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>  
+				</table>
+			</div>
+
+			<!-- iphone 13 pro div -->
+			<div class="column">
+			    <table>
+			      	<tr>
+			        	<th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store7.png"></th>
+			      	</tr>
+			      	<tr>
+			        	<td class="pname">iPhone 12</td>
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 134,990</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>  
+				</table>
+			</div>
+			
+			<!-- samsung s22 ultra div  -->
+			<div class="column">
+				<table>
+					<tr>
+				        <th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store8.png"></th>
+				        
+				    </tr>
+				    <tr>
+				        <td class="pname">Samsung A35</td>
+				       
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 55,999</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>  
+				</table>
+			</div>
+
+			<!-- oneplus 10 pro div -->
+			<div class="column">
+				<table>
+					<tr>
+				        <th class="imgtb"><img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\store9.png"></th>
+				        
+				    </tr>
+				    <tr>
+				        <td class="pname">Oneplus Nord CE</td>
+				       
+				    </tr>
+				    <tr>
+				        <td class="price">Rs. 39,999</td>
+				        
+				    </tr>
+				    <tr>
+				        <td><button class = "btn" onclick="detail1()">Buy now</button></td>
+				    </tr>  
+				</table>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- footer div -->
+	<footer class="f1" style="height: 450px; margin-top: 2000px;">
+
+		<!-- store logo -->
+		<div style="float: middle;"> 
+			<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\logo.png" style="width: 150px; height: auto; margin-bottom: -25px;">
+		</div>
+
+		<br>
+
+		<!-- store name -->
+		<div>
+			<h1 style="text-align: center; color: white; font-family: monospace; font-size: 25px">
+				<br>PineApple.
+			</h1>
+
+			<br>
+		</div>	
+
+		<!-- links to other pages -->
+		<div>
+			<h2 style="float: middle; color: white; font-family: monospace; font-size: 20px">
+				Quick links
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Products.html">Products</a>
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Research.html">Research</a>
+			   	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Blog.html">Blog</a>
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="ContactUs.html">Contact Us</a>
+			</h2>
+		</div>
+
+	</footer>
+
+	<!-- copyright law -->
+	<footer class="f2" style="background-color: #333;">
+
+		<p style="text-align: center; color: white; font-family: monospace; font-size: 15px; padding-bottom: 10px; padding-top: 10px" >
+			&#169; 2022 PineApple.
+			<br>
+			All Rights Reserved.
+		</p>
+
+	</footer>
+
+</body>
+
+</html>

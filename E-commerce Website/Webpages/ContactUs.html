@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="description" content="ContactUs Page">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Kiran Basnet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Contact Us</title>
+
+	<!-- External JavaScript -->
+	<script src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\JS\Script.js"></script>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\CSS\Design.css">
+
+	<!-- Internal JavaScript -->
+	<script type="text/javascript">
+
+	</script>
+
+	<!-- Internal CSS -->
+	<style type="text/css">
+		*{margin: 0px;}
+
+		label {
+			font-size: 20px;
+			text-align: left;
+		}
+
+		input[type=text], select {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		  width: 100%;
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #333;
+
+		}
+
+		.form1 {
+		  background-color: #f2f2f2;
+		  padding: 25px;
+		}
+
+		textarea {
+			width: 100%;
+		}
+
+	</style>
+</head>
+<body>
+
+	<!-- business name -->
+	<p style="font-family: monospace; font-size: 20px; height: 25px; text-align: center; background-color: #555; color: white; ">PineApple.</p>
+
+	<!-- navigation bar -->
+	<div id="nav">
+  		<a href="Home.html">Home</a>
+    	<a href="Products.html">Products</a>
+    	<a href="Research.html">Research</a>
+    	<a href="Blog.html">Blog</a>
+    	<a class="active" href="ContactUs.html">Contact Us</a>
+	</div>
+
+
+	<!-- contact us div -->
+	<div class= content style="height: 550px; background-color: white; margin: 216px; margin-top:0px; margin-bottom: 0px;">
+
+		<!-- form div -->
+		<div>
+			<div class="form1">
+				<form name="messageForm" onsubmit="validateForm()">
+					<label>First Name: </label>
+					<input type="text" name="fname" placeholder="Enter your name..">
+					<br>
+					<br>
+
+					<label>Last Name: </label>
+					<input type="text" name="lname" placeholder="Enter your last name">
+					<br>
+					<br>
+
+					<label>Email: </label>
+					<input type="text" name="email" placeholder="Enter your Email">
+					<br>
+					<br>
+
+
+					<label>Message:</label>
+					<br>
+					<textarea rows="4" cols="125" name="message" placeholder="Enter your message" ></textarea>
+					<br>
+					<br>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+
+			
+
+
+
+
+		</div>
+		
+
+
+
+
+
+	</div>
+
+	
+
+		
+	<!-- footer div -->
+	<footer class="f1" style="height: 450px ">
+		<div style="float: middle;"> 
+			<img src="C:\Users\kiran\Documents\islington\Introduction to Information system\IS C-3\np01cp4s220150 Kiran_Basnet\Development\Images\logo.png" style="width: 150px; height: auto; margin-bottom: -25px;">
+		</div>
+		<br>
+		<div>
+			<h1 style="text-align: center; color: white; font-family: monospace; font-size: 25px">
+				<br>PineApple.
+			</h1>	
+			<br>
+		</div>	
+
+		<div>
+			<h2 style="float: middle; color: white; font-family: monospace; font-size: 20px">
+				Quick links
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Products.html">Products</a>
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Research.html">Research</a>
+			   	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="Blog.html">Blog</a>
+		    	<br><a style="font-family: monospace; font-size: 15px; color: white;" href="ContactUs.html">Contact Us</a>
+			</h2>
+		</div>
+	</footer>
+	<footer class="f2" style="background-color: #333;">
+		<p style="text-align: center; color: white; font-family: monospace; font-size: 15px; padding-bottom: 10px; padding-top: 10px" >
+			&#169; 2022 PineApple.
+			<br>
+			All Rights Reserved.
+		</p>
+	</footer>
+
+	
+
+</body>
+</html>
